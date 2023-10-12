@@ -3,6 +3,7 @@ import Jobflow from '../../assets/Jobflow.png'
 import JateTextEditor from '../../assets/JateTextEditor.png'
 import ReadmeGenerator from '../../assets/ReadmeGenerator.png'
 import EmployeeTracker from '../../assets/EmployeeTracker.png'
+import RegexTutorial from '../../assets/RegexTutorial.png'
 
 const projectsData = [
     {
@@ -31,9 +32,9 @@ const projectsData = [
         repoLink: "https://github.com/Bemonn/Employee-Tracker-CMS"
     },
     {
-        title: "Employee Tracker",
-        image: EmployeeTracker,
-        repoLink: "https://github.com/Bemonn/Employee-Tracker-CMS"
+        title: "Regex Tutorial",
+        image: RegexTutorial,
+        repoLink: "https://gist.github.com/Bemonn/5a7b36ffc0792e576932d9048b53c0f5"
     },
 ];
 
