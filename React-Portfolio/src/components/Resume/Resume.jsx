@@ -13,7 +13,7 @@ function Resume() {
     return (
         <div className="resume-container">
             <h2>Resume</h2>
-            <a href="resumepath.pdf" download="resume.pdf" className="resume-link">Download My Resume</a>
+            <a href="/Resume.pdf" download="Tristan-Resume" className="resume-link">Download My Resume</a>
             
             <h3>Proficiencies</h3>
             <ul className="proficiencies-list">

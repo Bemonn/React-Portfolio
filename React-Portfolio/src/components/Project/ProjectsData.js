@@ -1,33 +1,39 @@
+import MovieBuff from '../../assets/MovieBuff.png'
+import Jobflow from '../../assets/Jobflow.png'
+import JateTextEditor from '../../assets/JateTextEditor.png'
+import ReadmeGenerator from '../../assets/ReadmeGenerator.png'
+import EmployeeTracker from '../../assets/EmployeeTracker.png'
+
 const projectsData = [
     {
-        title: "Project 1",
-        image: "path/to/my/project1/image.jpg",
-        deployedLink: "#",
-        repoLink: "#"
+        title: "MovieBuff",
+        image: MovieBuff,
+        repoLink: "https://github.com/Bemonn/Movie-buff"
     },
     {
-        title: "Project 2",
-        image: "path/to/my/project2/image.jpg",
-        deployedLink: "#",
-        repoLink: "#"
+        title: "JobFlow",
+        image: Jobflow,
+        repoLink: "https://github.com/Bemonn/JobFlow"
     },
     {
-        title: "Project 3",
-        image: "path/to/my/project2/image.jpg",
-        deployedLink: "#",
-        repoLink: "#"
+        title: "Jate Text Editor",
+        image: JateTextEditor,
+        repoLink: "https://github.com/Bemonn/JATE-Text-Editor"
     },
     {
-        title: "Project 4",
-        image: "path/to/my/project2/image.jpg",
-        deployedLink: "#",
-        repoLink: "#"
+        title: "Readme Generator",
+        image: ReadmeGenerator,
+        repoLink: "https://github.com/Bemonn/README-Generator-Node.JS"
     },
     {
-        title: "Project 5",
-        image: "path/to/my/project2/image.jpg",
-        deployedLink: "#",
-        repoLink: "#"
+        title: "Employee Tracker",
+        image: EmployeeTracker,
+        repoLink: "https://github.com/Bemonn/Employee-Tracker-CMS"
+    },
+    {
+        title: "Employee Tracker",
+        image: EmployeeTracker,
+        repoLink: "https://github.com/Bemonn/Employee-Tracker-CMS"
     },
 ];
 
