@@ -10,15 +10,23 @@ import Project from './components/Project/Project';
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-      <Footer />
+      <div className="header">
+        <Header />
+      </div>
+
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </div>
+
+      <div className="footer">
+        <Footer />
+      </div>
     </Router>
   );
 }
