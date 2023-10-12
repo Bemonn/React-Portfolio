@@ -1,3 +1,4 @@
+// React imports
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -7,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
 import PortfolioPage from './components/Project/PortfolioPage';
 
+// Main App component
 function App() {
   return (
     <Router>
@@ -31,4 +33,5 @@ function App() {
   );
 }
 
+// Export App component to be used elsewhere
 export default App;

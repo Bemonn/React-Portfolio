@@ -1,3 +1,4 @@
+/* Reset styles for body and html */
 body, html {
   margin: 0;
   padding: 0;
@@ -5,24 +6,25 @@ body, html {
   font-family: 'Arial', sans-serif;
 }
 
+/* Header styles */
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 98%;
+  width: 100%;
   background-color: #0b76e9;
   color: white;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 /* Main Content Styles */
 .main-content {
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   min-height: 100%;
 }
 
@@ -64,6 +66,7 @@ body, html {
   color: #ffffff;
 }
 
+/* Root styling for color schemes and typography */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -83,6 +86,20 @@ body, html {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+/* Media Queries for Larger Screens */
+
+@media (min-width: 768px) {
+  .header {
+    width: 98%;
+    padding: 10px 20px;
+  }
+
+  .main-content {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
 }
 
 @media (prefers-color-scheme: light) {

@@ -1,6 +1,8 @@
 import React from 'react';
+// Import Navigation component
 import Navigation from '../Navigation/Navigation';
 
+// Header component containing site title and navigation links
 function Header() {
   return (
     <header className="header">
@@ -10,4 +12,5 @@ function Header() {
   );
 }
 
+// Export header component
 export default Header;

@@ -1,3 +1,4 @@
+/* Styling for the main navigation bar */
 .navigation {
     display: flex;
     gap: 20px;
@@ -15,6 +16,7 @@
     text-decoration: underline;
 }
 
+/* Styling for the currently active link in the navigation */
 .navigation .active-link {
     background-color: black;
     border-radius: 5px;

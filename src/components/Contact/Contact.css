@@ -1,3 +1,4 @@
+/* Main container styling for the contact form */
 .contact-container {
     display: flex;
     justify-content: center;
@@ -6,6 +7,7 @@
     background-color: #78b4f5;
 }
 
+/* Styling for the contact form */
 .contact-form {
     background-color: #fff;
     border-radius: 10px;
@@ -15,6 +17,7 @@
     max-width: 400px;
 }
 
+/* Label styling for form fields */
 .contact-form label {
     display: block;
     margin-bottom: 15px;
@@ -25,6 +28,7 @@
     color: red;
 }
 
+/* Styling for input fields and textarea within the form */
 .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
@@ -39,6 +43,7 @@
     resize: none;
 }
 
+/* Submit button styling for the form */
 .contact-form button {
     display: block;
     background-color: #007BFF;
@@ -54,6 +59,7 @@
     background-color: #74b2f0;
 }
 
+/* Additional styles for form elements */
 .input-group {
     position: relative;
     margin-bottom: 20px;
@@ -68,6 +74,7 @@
     display: none;
 }
 
+/* Styles to display error message when input is invalid */
 input:invalid + .input-error {
     display: block;
 }

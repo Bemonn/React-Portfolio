@@ -1,3 +1,4 @@
+// Import project images
 import MovieBuff from '../../assets/MovieBuff.png'
 import Jobflow from '../../assets/Jobflow.png'
 import JateTextEditor from '../../assets/JateTextEditor.png'
@@ -5,6 +6,7 @@ import ReadmeGenerator from '../../assets/ReadmeGenerator.png'
 import EmployeeTracker from '../../assets/EmployeeTracker.png'
 import RegexTutorial from '../../assets/RegexTutorial.png'
 
+// Array containing data for each project
 const projectsData = [
     {
         title: "MovieBuff",
@@ -38,4 +40,5 @@ const projectsData = [
     },
 ];
 
+// Export projectsData array
 export default projectsData;

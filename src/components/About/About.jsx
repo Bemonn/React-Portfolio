@@ -1,7 +1,9 @@
 import React from 'react';
+// Import css and photo
 import './About.css';
 import selfPhoto from '../../assets/Selfphoto.jpg';
 
+// Functional component for the About section
 function About() {
   return <div className="about-section">
   <div className="about-image">
@@ -24,4 +26,5 @@ function About() {
 </div>;
 }
 
+// Export About component
 export default About;

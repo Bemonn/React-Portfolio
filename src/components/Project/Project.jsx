@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Functional component to render individual project
 const Project = ({ data }) => {
     return (
         <div className="project">
@@ -10,4 +11,5 @@ const Project = ({ data }) => {
     );
 }
 
+// Export Project component
 export default Project

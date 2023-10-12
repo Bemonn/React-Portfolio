@@ -1,6 +1,8 @@
+// React imports
 import React from 'react';
 import './Resume.css';
 
+// Resume component
 function Resume() {
     const proficiencies = [
         'HTML5', 'CSS', 'JavaScript', 'APIs', 'Bootstrap', 'GIT', 
@@ -25,4 +27,5 @@ function Resume() {
     );
 }
 
+// Export Resume component
 export default Resume;

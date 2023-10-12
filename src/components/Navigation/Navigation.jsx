@@ -1,7 +1,9 @@
+// Importing required dependencies and styles
 import React from 'react';
 import { NavLink, useMatch } from 'react-router-dom';
 import './Navigation.css';
 
+// Navigation component for the main menu links
 function Navigation() {
     const isAboutMatched = useMatch("/about");
   return (
@@ -37,4 +39,5 @@ function Navigation() {
   );
 }
 
+// Export Navigation component
 export default Navigation;

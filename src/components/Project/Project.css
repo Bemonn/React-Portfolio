@@ -1,3 +1,4 @@
+/* Grid layout for projects on the Portfolio page */
 .projects-page {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -6,22 +7,26 @@
   padding: 20px;
 }
 
+/* Style for individual project container */
 .project {
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Style for the project's image */
 .project img {
   width: 100%;
   max-height: 200px;
   object-fit: cover;
 }
 
+/* Style for the project's title */
 .project h3 {
   margin: 10px 0;
 }
 
+/* Style for the project's GitHub repository link */
 .project a {
   display: block;
   margin-top: 5px;
@@ -29,6 +34,7 @@
   text-decoration: none;
 }
 
+/* Hover effect for the link */
 .project a:hover {
   text-decoration: underline;
 }

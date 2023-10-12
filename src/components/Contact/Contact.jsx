@@ -1,6 +1,8 @@
 import React from 'react';
+// Import css
 import './Contact.css';
 
+// Function component for the Contact form
 function Contact() {
     return (
         <div className="contact-container">
@@ -33,4 +35,5 @@ function Contact() {
     );
 }
 
+// Export contact component
 export default Contact;

@@ -1,3 +1,4 @@
+/* Styling for the main About section container */
 .about-section {
     display: flex;
     align-items: center;
@@ -11,6 +12,7 @@
     position: relative;
 }
 
+/* Styling for the self photo in About section */
 .about-image img {
     margin-left: 30%;
     max-width: 35%;
@@ -18,6 +20,7 @@
     display: block;
 }
 
+/* Text container styling in the About section */
 .about-text {
     
     flex: 1;

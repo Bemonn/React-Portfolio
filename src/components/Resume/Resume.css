@@ -1,3 +1,4 @@
+/* Container styles for Resume component */
 .resume-container {
     padding: 20px;
     background-color: #f2f2f2;
@@ -6,6 +7,7 @@
     margin: 0 auto;
 }
 
+/* Styles for the download resume link */
 .resume-link {
     display: block;
     margin-bottom: 20px;
@@ -17,10 +19,12 @@
     text-align: center;
 }
 
+/* Hover effect for download resume link */
 .resume-link:hover {
     background-color: #74b2f0;
 }
 
+/* List styles for proficiencies */
 .proficiencies-list {
     list-style-type: none;
     padding: 0;
@@ -30,6 +34,7 @@
     border-radius: 5px;
 }
 
+/* Styles for individual proficiency items in the list */
 .proficiencies-list li {
     margin: 5px 0;
     background-color: #e0e0e0;

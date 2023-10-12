@@ -1,6 +1,8 @@
+// Import Font Awesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+// Footer component containing social links and icons
 function Footer() {
     return (
       <footer className="footer">
@@ -16,4 +18,5 @@ function Footer() {
     );
   }
 
+  // Export Footer component
 export default Footer;
