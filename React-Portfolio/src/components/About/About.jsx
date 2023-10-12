@@ -1,9 +1,11 @@
 import React from 'react';
+import './About.css';
+import selfPhoto from '../../assets/Selfphoto.jpg';
 
 function About() {
   return <div className="about-section">
   <div className="about-image">
-    <img src="path_to_your_image.jpg" alt="Your Name" />
+  <img src={selfPhoto} alt="Tristan Brennan" />
   </div>
   <div className="about-text">
     <h2>Welcome to my portfolio site built using react!</h2>
