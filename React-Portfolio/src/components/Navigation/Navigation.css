@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navigation a:hover {
+    color: #d1e0e7;
+  }
