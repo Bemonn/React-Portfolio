@@ -6,6 +6,12 @@ https://symphonious-biscochitos-31c7d1.netlify.app/
 ## Description
 This is my React Portfolio, it's designed to be a single page site and easy to navigate whilst still giving the user the ability to gain a deeper insight into my skills and accomplishments and just get to know me better in general.
 
+It contains:
+- About me page
+- Portfolio page
+- Contact information
+- List of skills and resume
+
 ## Table of Contents
 - [Deployed Link](#deployed-link)
 - [Installation](#installation)
