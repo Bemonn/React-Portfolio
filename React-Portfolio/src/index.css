@@ -6,16 +6,28 @@ body, html {
   font-family: 'Arial', sans-serif;
 }
 
-/* Header Styles */
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: px;
+  width: 98%;
   background-color: #007BFF;
   color: white;
   z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
 }
 
 /* Main Content Styles */
