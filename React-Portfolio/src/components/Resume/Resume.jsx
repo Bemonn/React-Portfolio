@@ -1,7 +1,28 @@
 import React from 'react';
+import './Resume.css';
 
 function Resume() {
-  return <div>Resume Page Placeholder</div>;
+    const proficiencies = [
+        'HTML5', 'CSS', 'JavaScript', 'APIs', 'Bootstrap', 'GIT', 
+        'Node.Js', 'Jest', 'Express.js', 'MySQL', 'Sequelize', 
+        'Object-Relational Mapping(ORM)', 'Model-View-Controller (MVC)', 
+        'NoSQL', 'Progressive Web Applications (PWA)', 'MongoDB', 
+        'Mongoose', 'GraphQL', 'React', 'MERN', 'State'
+    ];
+
+    return (
+        <div className="resume-container">
+            <h2>Resume</h2>
+            <a href="resumepath.pdf" download="resume.pdf" className="resume-link">Download My Resume</a>
+            
+            <h3>Proficiencies</h3>
+            <ul className="proficiencies-list">
+                {proficiencies.map(skill => (
+                    <li key={skill}>{skill}</li>
+                ))}
+            </ul>
+        </div>
+    );
 }
 
 export default Resume;
