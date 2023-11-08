@@ -3,7 +3,7 @@ import MovieBuff from '../../assets/MovieBuff.png'
 import Jobflow from '../../assets/Jobflow.png'
 import JateTextEditor from '../../assets/JateTextEditor.png'
 import ReadmeGenerator from '../../assets/ReadmeGenerator.png'
-import EmployeeTracker from '../../assets/EmployeeTracker.png'
+import FitConnect from '../../assets/FitConnect.png'
 import RegexTutorial from '../../assets/RegexTutorial.png'
 
 // Array containing data for each project
@@ -29,9 +29,9 @@ const projectsData = [
         repoLink: "https://github.com/Bemonn/README-Generator-Node.JS"
     },
     {
-        title: "Employee Tracker",
-        image: EmployeeTracker,
-        repoLink: "https://github.com/Bemonn/Employee-Tracker-CMS"
+        title: "FitConnect",
+        image: FitConnect,
+        repoLink: "https://github.com/Bemonn/FitConnect"
     },
     {
         title: "Regex Tutorial",
